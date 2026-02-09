@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Chá Rifa da Maria Clara</title>
+  <title>Chá Rifa da Maria Clara - Jardim Encantado</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -9,24 +9,35 @@
     body{
       margin:0;
       font-family:'Nunito', sans-serif;
-      background:#f5f0e8;
+      background:linear-gradient(180deg,#c7e8ca,#f7d1e6);
       display:flex;
       justify-content:center;
       padding:20px;
     }.cartaz{
-  width:800px;
-  background:linear-gradient(#fffdf7,#f0f6e9);
-  border-radius:25px;
+  width:820px;
+  background:linear-gradient(#fffdf7,#eef9f0);
+  border-radius:28px;
   padding:30px 40px;
-  box-shadow:0 0 20px rgba(0,0,0,.15);
+  box-shadow:0 0 25px rgba(0,0,0,.15);
   text-align:center;
-  border:6px solid #f4c4d7;
+  border:6px solid #f4b6cf;
+  position:relative;
 }
+
+.cartaz:before,
+.cartaz:after{
+  content:"🌸🦋🌿";
+  position:absolute;
+  font-size:28px;
+}
+
+.cartaz:before{ top:10px; left:15px; }
+.cartaz:after{ bottom:10px; right:15px; }
 
 h1{
   font-family:'Great Vibes', cursive;
-  font-size:56px;
-  color:#c94f7c;
+  font-size:60px;
+  color:#b64672;
   margin:10px 0;
 }
 
@@ -38,7 +49,7 @@ h2{
 }
 
 .premios{
-  background:#fff;
+  background:#ffffffdd;
   border-radius:18px;
   padding:15px;
   margin:15px 0;
@@ -47,7 +58,7 @@ h2{
 
 .premios h3{
   margin:0 0 10px;
-  color:#c94f7c;
+  color:#b64672;
 }
 
 .premios p{
@@ -58,28 +69,33 @@ h2{
 .regras{
   margin:15px 0;
   font-size:14px;
+  background:#f7fff9;
+  padding:10px;
+  border-radius:15px;
+  border:1px solid #cdeed8;
 }
 
 .tabela{
   display:grid;
   grid-template-columns:repeat(10,1fr);
-  gap:6px;
+  gap:7px;
   margin-top:20px;
 }
 
 .num{
-  background:#fde4ee;
-  border-radius:10px;
-  padding:6px 0;
+  background:linear-gradient(#fff,#fde4ee);
+  border-radius:12px;
+  padding:7px 0;
   font-weight:700;
-  color:#b33c67;
+  color:#a93663;
   border:1px solid #f1a7c0;
+  box-shadow:0 2px 4px rgba(0,0,0,.1);
 }
 
 .rodape{
   margin-top:25px;
-  font-size:28px;
-  color:#c94f7c;
+  font-size:30px;
+  color:#b64672;
   font-family:'Great Vibes', cursive;
 }
 
@@ -88,7 +104,7 @@ h2{
 <body><div class="cartaz">
   <h1>Chá Rifa da Maria Clara</h1>
   <h2> Mamãe e papai estão muito ansiosos pela minha chegada e, para comemorar, convidamos você a participar do meu chá rifa.</h2>  <div class="premios">
-    <h3>PRÊMIOS</h3>
+    <h3>🌸 PRÊMIOS 🌸</h3>
     <p>🥇 1º lugar: R$ 100,00</p>
     <p>🥈 2º lugar: R$ 50,00</p>
     <p>🥉 3º lugar: R$ 50,00</p>
@@ -99,27 +115,16 @@ h2{
     <p>51 a 100 – Fralda G + mimo</p>
     <p><strong>Combinar a entrega da fralda com o papai.</strong></p>
   </div>  <div class="tabela">
-    <!-- Numeração corrigida de 1 a 100 -->
-    <!-- Linha 1 -->
     <div class="num">01</div><div class="num">02</div><div class="num">03</div><div class="num">04</div><div class="num">05</div><div class="num">06</div><div class="num">07</div><div class="num">08</div><div class="num">09</div><div class="num">10</div>
-    <!-- Linha 2 -->
     <div class="num">11</div><div class="num">12</div><div class="num">13</div><div class="num">14</div><div class="num">15</div><div class="num">16</div><div class="num">17</div><div class="num">18</div><div class="num">19</div><div class="num">20</div>
-    <!-- Linha 3 -->
     <div class="num">21</div><div class="num">22</div><div class="num">23</div><div class="num">24</div><div class="num">25</div><div class="num">26</div><div class="num">27</div><div class="num">28</div><div class="num">29</div><div class="num">30</div>
-    <!-- Linha 4 -->
     <div class="num">31</div><div class="num">32</div><div class="num">33</div><div class="num">34</div><div class="num">35</div><div class="num">36</div><div class="num">37</div><div class="num">38</div><div class="num">39</div><div class="num">40</div>
-    <!-- Linha 5 -->
     <div class="num">41</div><div class="num">42</div><div class="num">43</div><div class="num">44</div><div class="num">45</div><div class="num">46</div><div class="num">47</div><div class="num">48</div><div class="num">49</div><div class="num">50</div>
-    <!-- Linha 6 -->
     <div class="num">51</div><div class="num">52</div><div class="num">53</div><div class="num">54</div><div class="num">55</div><div class="num">56</div><div class="num">57</div><div class="num">58</div><div class="num">59</div><div class="num">60</div>
-    <!-- Linha 7 -->
     <div class="num">61</div><div class="num">62</div><div class="num">63</div><div class="num">64</div><div class="num">65</div><div class="num">66</div><div class="num">67</div><div class="num">68</div><div class="num">69</div><div class="num">70</div>
-    <!-- Linha 8 -->
     <div class="num">71</div><div class="num">72</div><div class="num">73</div><div class="num">74</div><div class="num">75</div><div class="num">76</div><div class="num">77</div><div class="num">78</div><div class="num">79</div><div class="num">80</div>
-    <!-- Linha 9 -->
     <div class="num">81</div><div class="num">82</div><div class="num">83</div><div class="num">84</div><div class="num">85</div><div class="num">86</div><div class="num">87</div><div class="num">88</div><div class="num">89</div><div class="num">90</div>
-    <!-- Linha 10 -->
     <div class="num">91</div><div class="num">92</div><div class="num">93</div><div class="num">94</div><div class="num">95</div><div class="num">96</div><div class="num">97</div><div class="num">98</div><div class="num">99</div><div class="num">100</div>
-  </div>  <div class="rodape">Boa Sorte!!</div>
+  </div>  <div class="rodape">🦋 Boa Sorte!! 🌸</div>
 </div></body>
-  </html>
+</html>
